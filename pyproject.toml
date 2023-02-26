@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-learning-practice"
+version = "0.1.0"
+description = ""
+authors = ["MarceloCaro <marcecaro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "deep_learning_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+ipykernel = "^6.21.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
