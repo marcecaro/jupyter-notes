@@ -1,15 +1,17 @@
 [tool.poetry]
-name = "deep-learning-practice"
+name = "jupyter-notes"
 version = "0.1.0"
 description = ""
 authors = ["MarceloCaro <marcecaro@gmail.com>"]
 readme = "README.md"
-packages = [{include = "deep_learning_practice"}]
+packages = [{include = "notes"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-jupyter = "^1.0.0"
-ipykernel = "^6.21.2"
+jupyterlab = "^3.6.1"
+matplotlib = "^3.7.0"
+jupyterlab-hide-code = "^3.5.2"
+nbconvert = "^7.2.9"
 
 
 [build-system]
