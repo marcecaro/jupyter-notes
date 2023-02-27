@@ -12,6 +12,7 @@ jupyterlab = "^3.6.1"
 matplotlib = "^3.7.0"
 jupyterlab-hide-code = "^3.5.2"
 nbconvert = "^7.2.9"
+pandas = "^1.5.3"
 
 
 [build-system]
