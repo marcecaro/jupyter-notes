@@ -161,6 +161,7 @@ or colors can be selected in the nbextensions_configurator
       color: black;  /* default - alterable via nbextension-configurator */
   }
   
+  
   /*
   These colors are now specified in js, after reading the extension's config stored in system
   and updated using the nbextension-configurator
