@@ -91,7 +91,7 @@
 
                 // Add the list item
                 $("<li/>").appendTo(stack[0]).append(
-                    $("<a/>").text(elem.text()).attr("href", "#" + elem.attr("id"))
+                    $("<a/>").text(elem.text().replace("¶", "")).attr("href", "#" + elem.attr("id"))
                 );
 
                 currentLevel = level;
