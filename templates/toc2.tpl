@@ -1,5 +1,4 @@
 {%- extends 'nbextensions.tpl' -%}
-
 {%- block header -%}
 {{ super() }}
 
