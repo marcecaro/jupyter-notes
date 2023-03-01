@@ -6,7 +6,7 @@
 {{ super() }}
 {%- endif -%}
 {% endblock input_group %}
-ccc
+
 {% block output_group -%}
 {%- if cell.metadata.hide_output -%}
 {%- else -%}

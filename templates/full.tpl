@@ -1,1 +1,1 @@
-{%- extends 'index.html.j2' -%}
+{%- extends 'lab/index.html.j2' -%}

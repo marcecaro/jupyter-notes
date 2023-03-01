@@ -69,7 +69,7 @@
 
 <script>
 $(document).ready(function(){
-            $("#toc").toc({content: "article", headings: "h2,h3,h4"});
+            $("#toc").toc({content: "#post", headings: "h2,h3,h4"});
             var coll = document.getElementsByClassName("collapsible");
             var i;
             for (i = 0; i < coll.length; i++) {

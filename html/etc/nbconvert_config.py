@@ -599,7 +599,7 @@ c = get_config()  #noqa
 # c.HTMLExporter.template_name = ''
 
 #  See also: TemplateExporter.template_paths
-# c.HTMLExporter.template_paths = ['.']
+c.HTMLExporter.template_paths = ['../templates/']
 
 ## Template specific theme(e.g. the name of a JupyterLab CSS theme distributed as
 #  prebuilt extension for the lab template)

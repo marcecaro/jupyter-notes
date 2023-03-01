@@ -4,7 +4,7 @@ notebook:
 
 html:
 	rm -rf ./html/*.html
-	cd html; poetry run jupyter nbconvert  --config ./etc/nbconvert_config.py  --embed-images --to html --template-file ../templates/toc2.tpl ../notes/*.ipynb;cd -
+	cd html; poetry run jupyter nbconvert  --config ./etc/nbconvert_config.py  --embed-images --to html --template-file toc2.tpl ../notes/*.ipynb;cd -
 	mv -v ./notes/*.html ./html/
 
 .PHONY: html notebook
