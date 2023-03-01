@@ -11,12 +11,13 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="https://marcecaro.github.io/jupyter-notes/jquery.toc.min.js"></script>
+<script src="https://marcecaro.github.io/jupyter-notes/jquery.toc.js"></script>
 
 
 <script>
 $(document).ready(function(){
-            $("#toc").toc();
+            $("#toc").toc({content: "body", headings: "h2,h3,h4"});
+            
     });
 </script>
 
