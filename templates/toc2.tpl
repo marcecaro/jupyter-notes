@@ -15,14 +15,6 @@
     bottom: 0px;
     right: 0px;
   }
-  .part-menu {
-    font-family: sans-serif;
-    background: #F5F5DC;
-    padding: 15px;;
-    width: 230px;
-    z-index: 100;
-
-  }
 
   .floating-menu a, 
   .floating-menu h3 {
@@ -77,9 +69,8 @@
 
 <script>
 $(document).ready(function(){
-            $("#toc").toc({content: "body", headings: "h2,h3,h4"});
+            $("#toc").toc({content: "article", headings: "h2,h3,h4"});
             var coll = document.getElementsByClassName("collapsible");
-            
             var i;
             for (i = 0; i < coll.length; i++) {
               coll[i].addEventListener("click", function() {
@@ -97,7 +88,7 @@ $(document).ready(function(){
 
 <div class="floating-menu">
 <button type="button" class="collapsible">Table Of Content</button>
-<ul id="toc" class="content part-menu"></ul>
+<ul id="toc" class="content"></ul>
 </div>
 
 {%- endblock header -%}
