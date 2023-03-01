@@ -14,7 +14,8 @@ jupyterlab-hide-code = "^3.5.2"
 pandas = "^1.5.3"
 pandoc = "^2.3"
 pyppeteer = "^1.0.2"
-jupyter-contrib-nbextensions = "^0.7.0"
+#jupyter-contrib-nbextensions = "^0.7.0"
+nbconvert = "^7.2.9"
 
 
 [build-system]
