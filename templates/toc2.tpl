@@ -4,9 +4,6 @@
 
 <style>
 
-  main {
-    margin-bottom: 200%;
-  }
 
   .floating-menu {
     font-family: sans-serif;
