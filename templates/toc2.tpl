@@ -1,6 +1,5 @@
 {%- extends 'nbextensions.tpl' -%}
 
-
 {%- block header -%}
 {{ super() }}
 
@@ -8,11 +7,11 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/marcecaro/jupyter-notes/main/_static/main.css">
+<link rel="stylesheet" type="text/css" href="https://marcecaro.github.io/jupyter-notes/_static/main.css">
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="https://raw.githubusercontent.com/marcecaro/jupyter-notes/main/_static/toc2.js"></script>
+<script src="https://marcecaro.github.io/jupyter-notes/_static/toc2.js"></script>
 
 <script>
 $( document ).ready(function(){
