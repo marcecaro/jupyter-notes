@@ -1,4 +1,9 @@
 {
     "jupyter.debugJustMyCode": false,
-    "jupyter.showVariableViewWhenDebugging": true
+    "jupyter.showVariableViewWhenDebugging": true,
+    "cSpell.words": [
+        "Bijective",
+        "Injective",
+        "Surjective"
+    ]
 }
